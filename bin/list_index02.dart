@@ -6,4 +6,11 @@
     Returns:
         list: return answer
 */
-void main() {}
+List func(int s,int d,int f,int g,int h){
+  List x = [s,d,f,g,h];
+  return x = [s];
+}
+
+void main() {
+  print(func( 1, 2, 3, 4, 5));
+}
