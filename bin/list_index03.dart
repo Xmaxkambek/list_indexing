@@ -8,7 +8,7 @@
         list: return answer
 */
 List   func( List list1 ,List list2 ){
-  List a = [list1 + list2];
+  List a = list1 + list2;
   return a;
 
 }
