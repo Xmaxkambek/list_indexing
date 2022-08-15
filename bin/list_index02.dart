@@ -6,11 +6,11 @@
     Returns:
         list: return answer
 */
-List func(List1l, [a,s,d,f,g]){
-  List x = [a];
-  return x = [1];
+List func(List1, [a,s,d,f,g]){
+  List1 = [a];
+  return List1;
 }
 
 void main() {
-  print(func( 1,2,3,4,5 ));
+  print(func( 0,1,2,3,4, ));
 }
