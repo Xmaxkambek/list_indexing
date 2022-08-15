@@ -7,11 +7,11 @@
     Returns:
         list: return answer
 */
-List   func(List1 , List2 ){
-  List g = [List1 , List2];
-  return g;
+List   func( List list1 ,List list2 ){
+  List a = [list1 + list2];
+  return a;
 
 }
 void main() {
-  print(func( 1 , 2 ));
+  print(func([1],[2,3,4,5]));
 }
