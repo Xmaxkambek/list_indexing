@@ -6,7 +6,7 @@
     Returns:
         list: return answer
 */
-List func(List list1,List i){  
+List func(List list1){  
  int a = 0;
   while (a < list1.length) {
     if (list1[a] == 1) {
@@ -17,6 +17,6 @@ List func(List list1,List i){
   return list1;
 }
 void main() {
-  print(func([1,0,1,1,0],[1]));
+  print(func([1,0,0,0,0]));
 
 }
